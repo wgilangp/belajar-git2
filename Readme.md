@@ -23,5 +23,31 @@ Project:
 13. commit perubahan di test.txt: 'git commit -m "menambahkan beberapa lines"
 14. melihat perubahan line di testfile Readme.md: 'git diff Readme.md'
 15. add Readme.md ke staging: 'git add Readme.md'
-6. push branch bar ke remote
-7. merge branch baru itu ke main
+16. Commit perubahan di Readme.md
+17. melihat log lebih simple
+18. push branch baru ke remote
+19. create Repository du GitHub
+20. copy url Repository di GitHub
+21. check remote listnya: 'git remote -v'
+22. add remote to local repository: 'git add remote set-url origin <remote-url>
+23. pastika remotenya udah ada: 'git remote -v'
+24. git push ke remote: 'git push origin main'
+25. merge branch baru itu ke main
+
+# Resolve Conflict:
+1. Kalau terjadi conflict seperti gambar di bawah ini
+
+![alt text](image.png)
+
+2. yang perlu kita lakukan:
+    - diskusikan dengan tema mana yang benar
+    - apakah accpet both changes, incoming changes, current changes
+    - klik salah satu antara ketiga pilihan itu
+    - save file
+    - 'git status': untuk melihat status git repository
+
+![alt text](image-2.png)
+
+    - 'git add Readme.md'
+    - 'git commit -m "message"
+    - 'git push origin nama-branch'
