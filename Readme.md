@@ -18,5 +18,10 @@ Project:
     'git checkout -b main' (branch main baru)
     'git checkout main' (untuk yang udah ada branch main-nya)
 10. Kembalikan stash yang WIP : 'git stash pop'
-6. push branch baru ke remote
+11. tambahkan beberapa line di test.txt
+12. 'git add test.txt'
+13. commit perubahan di test.txt: 'git commit -m "menambahkan beberapa lines"
+14. melihat perubahan line di testfile Readme.md: 'git diff Readme.md'
+15. add Readme.md ke staging: 'git add Readme.md'
+6. push branch bar ke remote
 7. merge branch baru itu ke main
