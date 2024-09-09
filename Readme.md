@@ -30,9 +30,10 @@ Project:
 20. copy url Repository di GitHub
 21. check remote listnya: 'git remote -v'
 22. add remote to local repository: 'git remote add origin <remote-url>
-23. pastika remotenya udah ada: 'git remote -v'
-24. git push ke remote: 'git push origin main'
-25. merge branch baru itu ke main
+23. pastikan remotenya udah ada: 'git remote -v'
+24. git push ke remote: 'git push origin add/file'
+25. create pull request 
+26. merge branch baru itu ke main
 
 # Resolve Conflict:
 1. Kalau terjadi conflict seperti gambar di bawah ini
